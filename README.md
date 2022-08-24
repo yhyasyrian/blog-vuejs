@@ -25,3 +25,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ## It's a simple project for education
+Url: http://yhyasyrian.github.io/blog-vuejs/dist/

@@ -6,7 +6,7 @@ import ViewPost from "../views/ViewPost.vue";
 import { Title, LinkAbout } from "../data.json";
 const routes = [
     {
-        path:'/blog-vuejs/',
+        path:'/blog-vuejs/dist/',
         name:'Home',
         component:HomePage,
         props:{
@@ -15,7 +15,7 @@ const routes = [
             links:LinkAbout
         }
     },{
-        path:'/blog-vuejs/AboutMe',
+        path:'/blog-vuejs/dist/AboutMe',
         name:"AboutMe",
         component:AboutMe,
         props:{
@@ -23,12 +23,12 @@ const routes = [
             links:LinkAbout
         }
     },{
-        path:'/blog-vuejs/Blog',
+        path:'/blog-vuejs/dist/Blog',
         name:"Blog",
         component:ViewPosts
     },
     {
-        path:'/blog-vuejs/Post/:id',
+        path:'/blog-vuejs/dist/Post/:id',
         component:ViewPost
     }
 ];

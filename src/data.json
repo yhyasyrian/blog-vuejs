@@ -3,15 +3,15 @@
     "Links": [
         {
             "title": "Home",
-            "url": "/blog-vuejs/"
+            "url": "/blog-vuejs/dist/"
         },
         {
             "title": "About Me",
-            "url": "/blog-vuejs/AboutMe"
+            "url": "/blog-vuejs/dist/AboutMe"
         },
         {
             "title": "Blog",
-            "url": "/blog-vuejs/Blog"
+            "url": "/blog-vuejs/dist/Blog"
         }
     ],
     "LinkAbout": [

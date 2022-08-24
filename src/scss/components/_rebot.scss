@@ -1,0 +1,54 @@
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    @include mediaMd{
+        font-size: 16px;
+    }
+    @include media(500){
+        font-size: 14px;
+    }
+    @include media(362){
+        font-size: 12px;
+    }
+    @include media(312){
+        font-size: 10px;
+    }
+    @include media(272){
+        font-size: 8px;
+    }
+    @include media(232){
+        font-size: 7px;
+    }
+    @include media(207){
+        font-size: 6px;
+    }
+    @include media(185){
+        font-size: 5px;
+    }
+    @include media(155){
+        display: none;
+    }
+}
+input,
+textarea,
+button,
+select,
+span,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+:root{
+    --white:#eee;
+    --white-2:#eeeeee22;
+    --dark:#333;
+    --main:#00B0FF;
+}
+$white:var(--white);
+$dark:var(--dark);
+$white-2:var(--white-2);
+$main:var(--main);

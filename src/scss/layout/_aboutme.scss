@@ -1,0 +1,32 @@
+#AboutMe{
+    text-align: center;
+    h3{
+        margin-top: 3rem;
+    }
+    p {
+        max-width: 80%;
+        margin: 0.5rem auto auto auto;
+        line-height: 1.6;
+        font-weight: normal;
+        color: #777;
+    }
+    nav{
+        margin-top: 2rem;
+        a {
+            padding: 0.5rem 0.5rem;
+            font-size: 2.5rem;
+            &[href*="t.me"]{
+                color: #00B0FF;
+            }
+            &[href*="linkedin.com"],&[href*="fb.me"]{
+                color: #0d6efd;
+            }
+            &[href*="twitter.com"]{
+                color: #0dcaf0;
+            }
+            &[href*="github.com"]{
+                color: #212529;
+            }
+        }
+    }
+}

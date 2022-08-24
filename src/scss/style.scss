@@ -1,0 +1,31 @@
+@import './components/mixin';
+@import './components/rebot';
+@import './components/flex';
+@import './components/header';
+@import './components/container';
+@import './components/grid';
+@import './components/button';
+@import './layout/posts';
+@import './layout/post';
+@import './layout/aboutme';
+.welcome{
+    color: $main;
+    min-height: 75vh;
+    @extend %flex-c;
+    .icon {
+        color: $dark;
+        font-size: 2rem;
+        position: absolute;
+        bottom: 20%;
+        animation: icon-down .7s infinite;
+        cursor: pointer;
+    }
+}
+@keyframes icon-down {
+    0%,100%{
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}

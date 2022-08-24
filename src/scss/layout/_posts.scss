@@ -1,0 +1,36 @@
+#posts{
+    position: relative;
+    padding: 5rem 0;
+    background-color: #eee;
+    .container{
+        @extend %grid;
+        .post{
+            padding: 0.5rem;
+            background-color: $dark;
+            border-radius: 7px;
+            position: relative;
+            transition: 0.3s;
+            &:hover{
+                transform: translateY(-12px);
+            }
+            img {
+                width: 100%;
+            }
+            a:not(.btn) {
+                color: $main;
+                font-weight: bolder !important;
+                text-decoration: none;
+                margin-bottom: 0.5rem;
+                display: block;
+            }
+            .fallow{
+                display: flex;
+                justify-content: end;
+            }
+            p {
+                color: $white;
+                line-height: 1.7;
+            }
+        }
+    }
+}

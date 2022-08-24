@@ -1,0 +1,33 @@
+.view-post{
+    margin-left: 2rem;
+    @include mediaMd {
+        margin: 0;
+    }
+    padding-bottom: 1rem;
+    .title{
+        color:$main;
+        font-weight: 800;
+        margin-top: 1rem;
+        background: $dark;
+        padding: 0.7rem;
+        border-radius: 7px;
+    }
+    .img {
+        max-height: 360px;
+        max-width: 640px;
+        margin: 1rem auto;
+        border: 1px solid $dark;
+        border-radius: 0.5rem;
+        img {
+            border-radius: 0.5rem;
+            max-width: 100%;
+        }
+    }
+    .dis{
+        color: $white;
+        background-color: $dark;
+        padding: 1.5rem;
+        border-radius: 7px;
+        line-height: 1.7;
+    }
+}

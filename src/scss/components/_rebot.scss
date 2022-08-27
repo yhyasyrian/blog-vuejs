@@ -1,6 +1,5 @@
-body{
+html{
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
     @include mediaMd{
         font-size: 16px;
     }
@@ -47,6 +46,9 @@ a {
     --white-2:#eeeeee22;
     --dark:#333;
     --main:#00B0FF;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 $white:var(--white);
 $dark:var(--dark);
